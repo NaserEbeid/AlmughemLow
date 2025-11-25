@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شركة د. سليمان المقحم للمحاماة والاستشارات القانونية</title>
+
+  <!-- خط كايرو -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ملف التنسيقات -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="main-header">
+    <div class="container nav-container">
+
+
+      <!-- اللوغو + رابط -->
+      <a href="index.html" class="logo">
+        <img src="img/logo1 (2).png" alt="شعار شركة د. سليمان المقحم">
+        <div class="logo-text">
+          <span class="logo-title">شركة د. سليمان المقحم</span>
+          <span class="logo-subtitle">للمحاماة والاستشارات القانونية</span>
+        </div>
+      </a>
+
+      <!-- الروابط -->
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="aboutUs.html">من نحن</a></li>
+          <li><a href="Services.html" class="active">خدماتنا</a></li>
+          <li><a href="Blogs.html">المدونة</a></li>
+          <li><a href="FAQ.html">الأسئلة الشائعة</a></li>
+          <li><a href="ContactUs.html">اتصل بنا</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA -->
+      <div class="nav-cta">
+        <a href="https://wa.me/966556832222" class="btn-nav">
+          احجز استشارتك
+        </a>
+      </div>
+
+      <!-- زر موبايل -->
+      <button class="nav-toggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <div class="header-spacer" id="home"></div>
+
+
+  <!-- ====== HERO CAROUSEL ====== -->
+  <section class="hero">
+    <div class="hero-slider">
+
+      <!-- Slide 1 -->
+      <div class="hero-slide active" style="background-image: url('img/who.png');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <h1>خبرة قانونية يمكنك الوثوق بها</h1>
+          <p>
+            شركة د. سليمان المقحم للمحاماة والاستشارات القانونية، شريكك القانوني لحماية حقوقك
+            وتقديم حلول دقيقة وفق الأنظمة السعودية.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/966556832222" class="btn btn-primary">اطلب استشارة قانونية</a>
+            <a href="#about" class="btn btn-ghost">تعرف علينا أكثر</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="hero-slide" style="background-image: url('img/whorew.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <h1>دقة في المشورة، حماية لبياناتك</h1>
+          <p>
+            نعتمد أعلى معايير السرية والالتزام، لنضمن سلامة معاملتك القانونية من أول خطوة حتى إغلاق الملف.
+          </p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">استعرض خدماتنا</a>
+            <a href="#faq" class="btn btn-ghost">اطلع على الأسئلة الشائعة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="hero-slide" style="background-image: url('img/IMG_2856.JPG');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <h1>استشارتك القانونية بضغطة زر</h1>
+          <p>
+            فريق قانوني متخصص في قضايا الأفراد والشركات، جاهز للرد على استفساراتك في أسرع وقت.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/966556832222" class="btn btn-primary">تواصل عبر واتساب</a>
+            <a href="#blog" class="btn btn-ghost">اقرأ مقالات قانونية</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- مؤشرات الكاروسيل -->
+    <div class="hero-dots">
+      <button class="dot active" data-slide="0"></button>
+      <button class="dot" data-slide="1"></button>
+      <button class="dot" data-slide="2"></button>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT / من نحن ====== -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <!-- النص -->
+      <div class="about-text">
+        <h2 class="section-title">من نحن</h2>
+        <p class="section-lead">
+          تُعد شركة د. سليمان بن صالح المقحم للمحاماة والاستشارات القانونية إحدى الجهات
+          القانونية الرائدة في المملكة العربية السعودية، حيث تجمع بين المعرفة النظامية
+          والخبرة العملية في مختلف فروع القانون، وتعمل بترخيص واعتماد رسمي وتتخذ من
+          مدينة الرياض مقرًا رئيسيًا لها.
+        </p>
+
+        <p>
+          تقدم الشركة حلولًا قانونية متكاملة للأفراد والشركات ورواد الأعمال والمستثمرين،
+          تشمل الاستشارات النظامية، صياغة ومراجعة العقود، تأسيس الكيانات، التحكيم،
+          إدارة وتسوية النزاعات، وتمثيل العملاء أمام الجهات القضائية في القضايا
+          التجارية، المدنية، العقارية، والأحوال الشخصية.
+        </p>
+
+        <p>
+          تمتلك الشركة خبرة تمتد لأكثر من <strong>20 عامًا</strong> في مجالات التقاضي،
+          التفاوض، وإبرام التسويات، مع التزام تام بالسرية، الدقة، وسرعة الإنجاز.
+          ونسعى دائمًا لأن نكون الشريك القانوني الأول لعملائنا، والجهة الأكثر قدرة على
+          حماية حقوقهم وتلبية تطلعاتهم في بيئة قانونية متجددة.
+        </p>
+      </div>
+
+      <!-- الصورة -->
+      <div class="about-image">
+        <!-- استبدل الصورة بما يناسب الهوية -->
+        <img src="img/who.png" alt="اجتماع فريق شركة د. سليمان المقحم للمحاماة">
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== WHY US / لماذا نحن ====== -->
+  <section class="section why-us">
+    <div class="container">
+      <h2 class="section-title center">لماذا تختار شركة د. سليمان المقحم؟</h2>
+      <p class="section-lead center">
+        لأننا نؤمن أن كل قضية لها خصوصيتها، ونبني استراتيجيتنا القانونية على الفهم الدقيق لاحتياج كل عميل.
+      </p>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-icon">⚖️</span>
+          <h3>خبرة قانونية متخصصة</h3>
+          <p>فريق من المحامين والمستشارين المرخصين بخبرة عملية في القضايا التجارية، العقارية، العمالية والأحوال الشخصية.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <span class="why-icon">🕒</span>
+          <h3>دقة وسرعة في الإنجاز</h3>
+          <p>نعمل وفق مسار زمني واضح لكل ملف، مع متابعة مستمرة وإبلاغ العميل بكل خطوة من خطوات القضية أو المعاملة.</p>
+        </div>
+
+        <div class="why-card">
+          <span class="why-icon">🔐</span>
+          <h3>أمان وسرية تامة</h3>
+          <p>نلتزم بأعلى معايير السرية وحماية البيانات، لضمان خصوصية كاملة لجميع مستنداتك ومعلوماتك القانونية.</p>
+        </div>
+
+        <div class="why-card">
+          <span class="why-icon">🤝</span>
+          <h3>شراكة طويلة المدى</h3>
+          <p>لا نتعامل معك كقضية عابرة، بل كشريك مستمر، نرافقك في نمو أعمالك ونساعدك على تجنب المخاطر القانونية
+            المستقبلية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOUNDER / د. سليمان المقحم ====== -->
+  <section class="section founder" id="founder">
+    <div class="container founder-grid">
+      <!-- صورة الدكتور -->
+      <div class="founder-photo">
+        <img src="img/IMG_2750.JPG" alt="د. سليمان بن صالح المقحم" />
+      </div>
+
+      <!-- محتوى النص -->
+      <div class="founder-content">
+        <h2 class="section-title">عن د. سليمان بن صالح المقحم</h2>
+
+        <p class="founder-intro">
+          يُعد <strong>د. سليمان بن صالح المقحم</strong> من الأسماء البارزة في
+          الساحة القانونية بالمملكة العربية السعودية، بخبرة تتجاوز
+          <strong>عشرين عامًا</strong> في مجال المحاماة والاستشارات القانونية، وهو
+          المؤسس والرئيس التنفيذي
+          <strong>لشركة د. سليمان المقحم للمحاماة والاستشارات القانونية</strong>
+          بمدينة الرياض.
+        </p>
+
+        <p class="founder-body">
+          حاصل على <strong>بكالوريوس القانون عام 2001</strong>، ثم استكمل مسيرته
+          الأكاديمية بحصوله على <strong>الماجستير والدكتوراه عام 2006</strong>، إلى
+          جانب مشاركته في العديد من الدورات والندوات القانونية المتخصصة. د. سليمان
+          عضو في <strong>الهيئة السعودية للمحامين</strong> وعدد من الجهات المهنية
+          المعتمدة، وقد قدّم العديد من البرامج التدريبية في تطوير مهارات المحامين
+          والممارسين القانونيين.
+        </p>
+
+        <ul class="founder-highlights">
+          <li>فهم عميق للأنظمة السعودية والإجراءات القضائية.</li>
+          <li>تحليل سلوكي متميز لطبيعة النزاعات القانونية وأطرافها.</li>
+          <li>حلول عملية تركّز على مصلحة العميل قبل أي اعتبار آخر.</li>
+          <li>خبرة واسعة في القضايا التجارية، المدنية، العمالية والأحوال الشخصية.</li>
+        </ul>
+
+        <!-- CTA -->
+        <div class="founder-cta">
+          <a href="about.html" class="btn btn-outline">تعرف أكثر على مسيرة د. سليمان</a>
+        </div>
+
+        <!-- سوشيال ميديا -->
+        <div class="founder-social">
+          <span class="founder-social-label">تابع د. سليمان على المنصات الاجتماعية:</span>
+          <div class="founder-social-links">
+            <a href="#" aria-label="LinkedIn" class="social-pill">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" aria-label="X (Twitter)" class="social-pill">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-pill">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" aria-label="TikTok" class="social-pill">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES / خدماتنا ====== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <h2 class="section-title center">خدماتنا القانونية</h2>
+      <p class="section-lead center">
+        نقدم في شركة د. سليمان المقحم للمحاماة والاستشارات القانونية مجموعة متكاملة من الخدمات
+        التي تغطي احتياجات الأفراد والشركات، مع التركيز على الدقة، الأمان، وسرعة الإنجاز.
+      </p>
+
+      <div class="services-grid">
+        <!-- خدمة 1 -->
+        <a href="services/consulting.html" class="service-card">
+          <div class="service-image">
+            <img src="img/IMG_2712.JPG" alt="الاستشارات القانونية في شركة د. سليمان المقحم" />
+          </div>
+          <h3>الاستشارات القانونية</h3>
+          <p>
+            استشارات قانونية متخصصة تساعدك في اتخاذ قرارات مدروسة قبل الإقدام على أي خطوة،
+            مع مراعاة الأنظمة السعودية وأحدث التحديثات النظامية.
+          </p>
+        </a>
+
+        <!-- خدمة 2 -->
+        <a href="services/litigation.html" class="service-card">
+          <div class="service-image">
+            <img src="img/IMG_2774_ed.JPG" alt="التقاضي والمرافعات أمام المحاكم السعودية" />
+          </div>
+          <h3>التقاضي والمرافعات</h3>
+          <p>
+            تمثيل كامل أمام المحاكم والجهات القضائية في مختلف القضايا التجارية، المدنية، العمالية
+            وقضايا الأحوال الشخصية، مع متابعة دقيقة لجميع مراحل الدعوى.
+          </p>
+        </a>
+
+        <!-- خدمة 3 -->
+        <a href="services/contracts.html" class="service-card">
+          <div class="service-image">
+            <img src="img/IMG_2726.JPG" alt="صياغة ومراجعة العقود والاتفاقيات" />
+          </div>
+          <h3>صياغة ومراجعة العقود</h3>
+          <p>
+            إعداد ومراجعة العقود والاتفاقيات لضمان خلوها من الثغرات القانونية،
+            وحماية حقوق جميع الأطراف وفق الأنظمة السعودية المعمول بها.
+          </p>
+        </a>
+
+        <!-- خدمة 4 -->
+        <a href="services/companies.html" class="service-card">
+          <div class="service-image">
+            <img src="img/IMG_2798_ed.JPG" alt="خدمات تأسيس الشركات والاستثمار" />
+          </div>
+          <h3>خدمات الشركات والاستثمار</h3>
+          <p>
+            تأسيس الشركات والكيانات التجارية، تعديل عقود التأسيس، ودعم صفقات الاندماج والاستحواذ
+            بما يحقق أهدافك الاستثمارية ويحافظ على امتثال منشأتك للأنظمة.
+          </p>
+        </a>
+
+        <!-- خدمة 5 -->
+        <a href="services/notary.html" class="service-card">
+          <div class="service-image">
+            <img src="img/IMG_2831_ed.JPG" alt="خدمات التوثيق والتصديق للوكالات والعقود" />
+          </div>
+          <h3>التوثيق والتصديق</h3>
+          <p>
+            توثيق الوكالات والعقود والمعاملات النظامية، مع ضمان سلامة الإجراءات وتوافقها مع
+            اللوائح والأنظمة، بما يعزز الحجية القانونية لوثائقك.
+          </p>
+        </a>
+
+        <!-- خدمة 6 -->
+        <a href="services/debt-collection.html" class="service-card">
+          <div class="service-image">
+            <img src="img/drphoto.jpg" alt="خدمات تحصيل الديون والتنفيذ القضائي" />
+          </div>
+          <h3>تحصيل الديون والتنفيذ</h3>
+          <p>
+            إدارة وتحصيل الديون المستحقة بطرق نظامية فعّالة، ومتابعة إجراءات التنفيذ حتى
+            استيفاء حقوق العملاء بالكامل بأعلى درجات المهنية والسرية.
+          </p>
+        </a>
+      </div>
+
+      <div class="services-cta center">
+        <a href="#contact" class="btn btn-primary">اطلب استشارة حول خدمتك المناسبة</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BLOG / أحدث المقالات ====== -->
+  <!-- ====== BLOG SECTION / أحدث المقالات ====== -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <h2 class="section-title center">أحدث المقالات القانونية</h2>
+      <p class="section-lead center">
+        مقالات قانونية مبسّطة يقدّمها مكتب د. سليمان بن صالح المقحم لمساعدتك
+        على فهم الأنظمة السعودية واتخاذ قرارات أكثر وعيًا.
+      </p>
+
+      <div class="blog-grid">
+        <!-- مقال 1: أفضل مستشار قانوني في السعودية -->
+        <article class="blog-card">
+          <a href="blog/best-legal-consultant-saudi.html" class="blog-image">
+            <!-- خلى مسار الصورة زي اللي مستخدمه عندك -->
+            <img src="img/BistInSaudi.jpg" alt="أفضل مستشار قانوني في السعودية" />
+          </a>
+
+          <div class="blog-content">
+            <h3 class="blog-title">
+              <a href="blog/best-legal-consultant-saudi.html">
+                كيف تختار أفضل مستشار قانوني في السعودية؟
+              </a>
+            </h3>
+            <p class="blog-meta">
+              نُشر في 2025/01/05 • قسم: الاستشارات القانونية
+            </p>
+            <p class="blog-excerpt">
+              تبحث عن مستشار قانوني تثق فيه قبل بدء مشروعك أو تسوية نزاع قائم؟
+              في هذا المقال نوضّح لك أهم المعايير لاختيار المستشار القانوني المناسب،
+              ومتى تحتاج إلى استشارة متخصصة، وكيف تتأكد من ترخيص المكتب وخبرته في
+              مجال قضيتك.
+            </p>
+            <a href="blog/best-legal-consultant-saudi.html" class="blog-readmore">
+              اقرأ المقال كاملًا
+            </a>
+          </div>
+        </article>
+
+        <!-- مقال 2: أفضل شركة محاماة في الرياض -->
+        <article class="blog-card">
+          <a href="blog/best-law-firm-riyadh.html" class="blog-image">
+            <!-- خلى مسار الصورة زي اللي مستخدمه عندك -->
+            <img src="img/bestInRiyadh.jpg" alt="أفضل شركة محاماة في الرياض" />
+          </a>
+
+          <div class="blog-content">
+            <h3 class="blog-title">
+              <a href="blog/best-law-firm-riyadh.html">
+                أفضل شركة محاماة في الرياض: معايير الاختيار وخطوات التعاقد
+              </a>
+            </h3>
+            <p class="blog-meta">
+              نُشر في 2025/01/10 • قسم: القضايا التجارية والتنظيمية
+            </p>
+            <p class="blog-excerpt">
+              إذا كنت تبحث عن شركة محاماة في الرياض لتمثيلك أمام الجهات القضائية
+              أو لمرافقة أعمالك التجارية، فهذا المقال يعرّفك بأهم العناصر التي يجب
+              مراعاتها قبل اختيار المكتب: فريق العمل، التخصصات المتاحة، أسلوب
+              المتابعة، وآلية أتعاب المحاماة، مع نصائح عملية لتوقيع عقد خدمات
+              قانونية واضح وآمن.
+            </p>
+            <a href="blog/best-law-firm-riyadh.html" class="blog-readmore">
+              اقرأ المقال كاملًا
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- زر مشاهدة جميع المقالات -->
+      <div class="blog-cta center">
+        <a href="blog.html" class="btn btn-outline">
+          تصفّح جميع المقالات القانونية
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CERTIFICATIONS / الشهادات والاعتمادات ====== -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <h2 class="section-title center">الشهادات والاعتمادات</h2>
+      <p class="section-lead center">
+        نعتز في شركة د. سليمان المقحم للمحاماة والاستشارات القانونية بحصولنا على
+        عدد من الشهادات والاعتمادات المهنية التي تعكس التزامنا بالجودة، الموثوقية،
+        والامتثال التام للأنظمة المعمول بها في المملكة العربية السعودية.
+      </p>
+
+      <!-- غلاف الجريد عشان نخلي عرضه أنظف -->
+      <div class="certs-grid-wrapper">
+        <div class="certs-grid">
+          <!-- 1 -->
+          <article class="cert-card">
+            <img src="img/Certificates/1-768x183.webp" alt="شهادة قيد في الهيئة السعودية للمحامين">
+          </article>
+          <!-- 2 -->
+          <article class="cert-card">
+            <img src="img/Certificates/11-1024x1024.webp" alt="اعتماد مزاولة مهنة المحاماة في المملكة">
+          </article>
+          <!-- 3 -->
+          <article class="cert-card">
+            <img src="img/Certificates/2.webp" alt="شهادة حضور برنامج تأهيلي قانوني">
+          </article>
+          <!-- 4 -->
+          <article class="cert-card">
+            <img src="img/Certificates/22-1024x1024.webp" alt="شهادة مشاركة في ندوة أو مؤتمر قانوني">
+          </article>
+          <!-- 5 -->
+          <article class="cert-card">
+            <img src="img/Certificates/3-768x183.webp" alt="شهادة اعتماد في التحكيم أو التوثيق">
+          </article>
+          <!-- 6 -->
+          <article class="cert-card">
+            <img src="img/Certificates/6-768x270.webp" alt="شهادة شكر وتقدير عن إنجاز قانوني">
+          </article>
+          <!-- 7 -->
+          <article class="cert-card">
+            <img src="img/Certificates/Asset-1.webp" alt="شهادة مهنية قانونية معتمدة">
+          </article>
+          <!-- 8 -->
+          <article class="cert-card">
+            <img src="img/Certificates/mnx336.webp" alt="شهادة تكريم أو تقدير قانوني">
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم CTA  -->
+  <section class="section contact-cta" id="contact">
+    <div class="container center">
+
+      <h2 class="section-title">لا تتردد… تواصل معنا اليوم واحصل على استشارة قانونية مبدئية مجانًا</h2>
+
+      <p class="section-lead">
+        نساعدك في اتخاذ القرار الصحيح وفق الأنظمة واللوائح السعودية، بخبرة تتجاوز 20 عامًا.
+      </p>
+
+      <a href="https://wa.me/966556832222" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+        راسلنا عبر واتساب الآن
+      </a>
+
+      <div class="contact-benefits">
+        <div class="benefit-box">
+          <i class="fas fa-user-shield"></i>
+          <p>فريق قانوني متخصص</p>
+        </div>
+
+        <div class="benefit-box">
+          <i class="fas fa-calendar-check"></i>
+          <p>خدمات متاحة طوال الأسبوع</p>
+        </div>
+
+        <div class="benefit-box">
+          <i class="fas fa-bolt"></i>
+          <p>سرعة في الإنجاز وإجراءات دقيقة</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ====== FOOTER / الفوتر ====== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- عمود 1: التواصل + الخريطة -->
+      <div class="footer-col footer-contact">
+        <div class="footer-brand">
+          <img src="img/logo1 (1).png" alt="شعار شركة د. سليمان المقحم">
+          <div class="footer-brand-text">
+            <span class="footer-brand-title">شركة د. سليمان بن صالح المقحم</span>
+            <span class="footer-brand-subtitle">للمحاماة والاستشارات القانونية</span>
+          </div>
+        </div>
+
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            طريق الأمير سعد بن عبدالرحمن الأول الفرعي، الروابي، الرياض 14215
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            0114485984
+          </li>
+          <li>
+            <i class="fa-brands fa-whatsapp"></i>
+            0556832222
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            Suleman@almughem.sa
+          </li>
+        </ul>
+
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.26577444379!2d46.7882757!3d24.6833889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f073a19feb433%3A0x1c8ef200b1595679!2z2LTYsdmD2Kkg2LPZhNmK2YXYp9mGINi12KfZhNitINin2YTZhdmC2K3ZhSDZhNmE2YXYrdin2YXYp9ipINmI2KfZhNin2LPYqti02KfYsdin2Kog2KfZhNmC2KfZhtmI2YbZitipINmI2KfZhNiq2YjYq9mK2YI!5e0!3m2!1sar!2ssa!4v1764015131638!5m2!1sar!2ssa"
+            width="100%" height="190" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- عمود 2: روابط سريعة -->
+      <div class="footer-col">
+        <h4 class="footer-title">روابط سريعة</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="aboutUs.html">من نحن</a></li>
+          <li><a href="aboutUs.html#founder">عن د. سليمان</a></li>
+          <li><a href="Services.html">خدماتنا</a></li>
+          <li><a href="Blogs.html">المدونة</a></li>
+          <li><a href="FAQ.html">الأسئلة الشائعة</a></li>
+          <li><a href="ContactUs.html">احجز استشارتك</a></li>
+        </ul>
+      </div>
+
+      <!-- عمود 3: أهم الخدمات -->
+      <div class="footer-col">
+        <h4 class="footer-title">خدمات قانونية</h4>
+        <ul class="footer-links">
+          <li><a href="ServiceTherteen.html"> استشارة قانونية عبر إجتماع إفتراضي</a></li>
+          <li><a href="serviceOne.html">التقاضي والمرافعات</a></li>
+          <li><a href="ServiceFive.html">صياغة ومراجعة العقود</a></li>
+          <li><a href="ServiceFour.html">تأسيس الشركات والاستثمار</a></li>
+          <li><a href="ServiceFive.html">التوثيق والتصديق</a></li>
+          <li><a href="ServiceFifteen.html">تحصيل الديون والتنفيذ</a></li>
+        </ul>
+      </div>
+
+      <!-- عمود 4: معلومات إضافية + سوشيال -->
+      <div class="footer-col">
+        <h4 class="footer-title">معلومات إضافية</h4>
+        <ul class="footer-links">
+          <li><a href="aboutUs.html#why-us">لماذا نحن</a></li>
+          <li><a href="FAQ.html">الأسئلة الشائعة</a></li>
+          <li><a href="Blogs.html">المدونة القانونية</a></li>
+          <li><a href="ContactUs.html">اتصل بنا</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <span>تابعنا على:</span>
+          <div class="footer-social-links">
+            <a href="https://www.linkedin.com/company/Almughemlaw" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/Almughemlaw" target="_blank" rel="noopener" aria-label="X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/Almughemlaw" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@Almughemlaw" target="_blank" rel="noopener" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- شريط الحقوق -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>
+          © 2025 شركة د. سليمان بن صالح المقحم للمحاماة والاستشارات القانونية. جميع الحقوق محفوظة.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="FAQ.html">الأسئلة الشائعة</a>
+          <span>•</span>
+          <a href="ContactUs.html">اتصل بنا</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ====== SCRIPTS ====== -->
+  <script src="script.js"></script>
+</body>
+
+</html>
