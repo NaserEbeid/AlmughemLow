@@ -51,7 +51,6 @@ body {
 
 /* ==== HEADER & NAV ==== */
 /* ===== NAVBAR / HEADER ===== */
-
 .main-header {
   position: fixed;
   inset-inline: 0;
@@ -88,9 +87,7 @@ body {
 
 .logo img {
   max-height: 75px;
-  /* تكبير فعلي */
   width: auto;
-  /* يخلي العرض يكبر طبيعي */
   object-fit: contain;
 }
 
@@ -193,9 +190,30 @@ body {
 /* ===== Responsive ===== */
 
 @media (max-width: 992px) {
+  .nav-container {
+    gap: 16px;
+    position: relative;
+    /* عشان المنيو المطلعة تبقى تحت الهيدر */
+  }
+
   .nav-links {
     display: none;
-    /* هتظهر لاحقًا مع منيو الموبايل لما نعمل JS */
+    /* الحالة الافتراضية في الموبايل */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    inset-inline: 16px;
+    top: 100%;
+    background: rgba(1, 53, 44, 0.98);
+    padding: 14px 16px 18px;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  /* لما الجافاسكريبت تضيف .open */
+  .nav-links.open {
+    display: flex;
   }
 
   .nav-cta {
@@ -205,10 +223,6 @@ body {
   .nav-toggle {
     display: flex;
     margin-inline-start: auto;
-  }
-
-  .nav-container {
-    gap: 16px;
   }
 }
 
@@ -230,6 +244,8 @@ body {
     font-size: 0.75rem;
   }
 }
+
+
 
 /* ==== BUTTONS ==== */
 .btn {
@@ -808,4 +824,5 @@ body {
     width: 40px;
     height: 40px;
   }
+
 }
